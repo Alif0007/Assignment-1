@@ -1,5 +1,11 @@
 body { margin: 0;}
 
+main{
+     max-width: 1200px;
+    margin:0 auto;
+
+}
+
 
 header{
     height: 100vh;
@@ -11,11 +17,12 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
+    
 }
 
 .logo-style{
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     color: #4E47FF;
 }
 
@@ -25,6 +32,8 @@ header{
     border-radius: 7px;
     color: white;
     border: none;
+    width: fit-content;
+
     
 
 }
@@ -34,10 +43,81 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-basis: auto;
-
 }
 .banner-text{
     font-size: 70px;
     text-align: center;
 }
+
+.action-style{
+    display: flex;
+    gap: 400px;
+    padding: 100px 0;
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: auto;
+}
+.action-subtitle{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #25243273;
+
+}
+
+
+.user-section{
+    background-color: #4d47ff21;
+    padding: 50px 180px;
+    border-radius: 30px;
+}
+.user-style{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.user-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-details h1{
+    font-size: 70px;
+    margin: 0;
+    color: #4E47FF;
+}
+.user-details p{
+    color: #25243273;
+    margin: 0;
+}
+
+.review-card h1{
+    margin: 5px 0 0 0;
+
+}
+
+
+.review-details{
+    display: flex;
+    gap: 20px;
+}
+
+.review-details img{
+    border-radius: 99999px;
+    
+}
+
+.reviewer-name{
+    margin: 0%;
+    font-weight: 700;
+    color: gray;
+}
+.reviewer-date{
+    margin:5px 0 0 0;
+    color: rgb(164, 158, 158);
+}   
