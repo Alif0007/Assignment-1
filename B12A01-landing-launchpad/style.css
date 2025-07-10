@@ -1,4 +1,6 @@
-body { margin: 0;}
+body { margin: 0;
+background-color: #4d47ff0f;
+}
 
 main{
      max-width: 1200px;
@@ -73,6 +75,7 @@ header{
     background-color: #4d47ff21;
     padding: 50px 180px;
     border-radius: 30px;
+    margin-bottom: 100px;
 }
 .user-style{
     display: flex;
@@ -96,8 +99,22 @@ header{
     margin: 0;
 }
 
+.card{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.review-card{
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
 .review-card h1{
     margin: 5px 0 0 0;
+    
 
 }
 
