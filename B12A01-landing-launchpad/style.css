@@ -6,6 +6,7 @@ main{
      max-width: 1200px;
     margin:0 auto;
 
+
 }
 
 
@@ -35,10 +36,12 @@ header{
     color: white;
     border: none;
     width: fit-content;
-
-    
+    cursor: pointer;
+    transition: 0.6s;
 
 }
+
+.btn:hover {background-color: #85838d}
 .banner{
     padding: 120px;
     display: flex;
@@ -161,4 +164,37 @@ header{
     border: none;
     border-radius: 5px;
     padding: 15px;
+}
+
+.footer-style{
+    padding: 100px 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-style h1{
+    font-size: 100px;
+    color: #4E47FF;
+    margin: 0;
+}
+.footer-style p{
+    text-align: center;
+    color: rgb(79, 77, 77);
+
+
+}
+.footer-style ul{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-style ul li{
+    list-style: none;
+}
+.footer-style ul a{
+    text-decoration: none;
+    color: rgb(79, 77, 77);
+
 }
