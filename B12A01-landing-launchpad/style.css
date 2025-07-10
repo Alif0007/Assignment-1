@@ -138,3 +138,27 @@ header{
     margin:5px 0 0 0;
     color: rgb(164, 158, 158);
 }   
+
+
+.form-section{
+    display: flex;
+    gap: 150px;
+    margin-top: 150px;
+}
+.form-section h1{
+    font-size: 100px;
+    width: 50%;
+
+}
+
+.input{
+    width: 50%;
+}
+.input-style{
+    margin: 15px 0 10px 0;
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
